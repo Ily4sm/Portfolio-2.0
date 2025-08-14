@@ -41,7 +41,7 @@ const io = new IntersectionObserver((entries) => {
 document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
 // ===== simple typewriter =====
-const words = ["Ilyas MARDHI", "Full-Stack Engineer", "UI/UX Enjoyer", "Performance Nerd"];
+const words = ["Ilyas MARDHI", "Full-Stack Engineer", "Problem Solver", "Performance Nerd", "Digital Craftsman"];
 const target = document.getElementById('typewriter');
 let wi = 0, ci = 0, dir = 1, pause = 0;
 function tick() {
